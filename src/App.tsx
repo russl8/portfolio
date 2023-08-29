@@ -2,12 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Intro from './components/Intro';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-     <Intro/>
-    </div>
+    <>
+      <div className="bg-darkGray">
+        <Intro />
+        <Intro />
+
+      </div>
+      <Sidebar />
+    </>
+
+
+
   );
 }
 
