@@ -1,19 +1,19 @@
 import Typewriter from 'react-ts-typewriter';
+import PageDiv from './PageDiv';
 
 //https://github.com/gerardmarquinarubio/ReactTypewriter
 const Intro = () => {
     return (
-        <div className="flex items-center justify-center h-[100vh]" id = "intro">
+        <PageDiv id="intro" className="h-[100vh]">
             <div className="flex flex-col text-lightGray">
-                <h1 className='text-4xl'>
+                <h1 className='text-3xl font-bold'>
                     <Typewriter text="Hi, Russell here." speed={120} />
                 </h1>
                 <p>
-                    I am a second-year student studying Computer Science at York University. 
+                    I'm currently a second-year student studying Computer Science at York University!
                 </p>
             </div>
-            
-        </div>
+        </PageDiv>
     );
 }
 

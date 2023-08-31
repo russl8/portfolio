@@ -5,7 +5,7 @@ interface SidebarLinkProps {
 
 const SidebarLink : React.FC<SidebarLinkProps>= ({href,text}) => {
     return (
-        <a href={href}>
+        <a href={href} >
            {text}
         </a>
     );

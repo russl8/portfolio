@@ -1,16 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Intro from './components/Intro';
 import Sidebar from './components/Sidebar';
+import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <>
-      <div className="bg-darkGray">
+      <div>
         <Intro />
-        <Intro />
-
+        <About />
+        <Projects/>
       </div>
       <Sidebar />
     </>
