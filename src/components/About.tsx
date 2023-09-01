@@ -30,7 +30,7 @@ const About = () => {
                 <h3 className="text-xl  text-center  my-2 w-full">I am interested in both client and server-side development! Technologies I am currently working with are:</h3>
                 <div className="flex flex-row items-center justify-center">
 
-                    <div className="flex flex-col mr-[250px]">
+                    <div className="flex flex-col mr-[100px]">
                         <h4 className="text-lg font-bold">Languages</h4>
                         <ul>
                             {languages.map(lang => <li>{lang}</li>)}
@@ -38,7 +38,7 @@ const About = () => {
                     </div>
 
                     <div>
-                        <h4 className="text-lg font-bold">Developer Tools</h4>
+                        <h4 className="text-lg font-bold text-end">Developer Tools</h4>
                         <ul className="flex flex-col items-end">
                             {tools.map(tool => <li>{tool}</li>)}
                         </ul>

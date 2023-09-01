@@ -22,21 +22,16 @@ const Projects = () => {
         {
             name: "Portfolio",
             description: "A website showcasing my software creations.",
-            stack: "React (TypeScript), TailwindCSS",
-            githubLink: "G",
+            stack: "React (TypeScript), TailwindCSS, MaterialUI",
+            githubLink: "https://github.com/russl8/portfolio",
         },
-        {
-            name: "Portfolio",
-            description: "My portfolio website!",
-            stack: "React (TypeScript), TailwindCSS",
-            githubLink: "G",
-        }
+
     ]
     return (
         <PageDiv id="projects">
             <h1 className="text-3xl font-bold">My Projects!</h1>
 
-            <div className="grid xl:grid-cols:3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-10 my-2">
+            <div className="grid xl:grid-cols:3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-5 my-4">
                 {projects.map(proj => <Card proj={proj} />)}
             </div>
         </PageDiv>

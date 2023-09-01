@@ -9,11 +9,11 @@ module.exports = {
         'sans': ['Proxima Nova'],
       },
       colors: {
-        'lightGray': '#fffcf2',
-        'gray': '#ccc5b9',
-        'darkGray': '#403d39',
-        'black': '#252422',
-        'color': '#eb5e28',
+        'background': '#16161a',
+        'cardbackground': '#242629',
+        'maintext': '#fffffe',
+        'subtext': '#94a1b2',
+        'color': '#7f5af0',
       },
       variants: {
         animation: ["motion-safe"]

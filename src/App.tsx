@@ -1,5 +1,3 @@
-import React from 'react';
-import './App.css';
 import Intro from './components/Intro';
 import Sidebar from './components/Sidebar';
 import About from './components/About';

@@ -10,7 +10,7 @@ interface PageDivProps {
 
 const PageDiv: React.FC<PageDivProps> = ({ children, id, className }) => {
     return (
-        <div className={twMerge(`flex flex-col items-center justify-center  mx-8 text-lightGray py-8`, className)} id={id}>
+        <div className={twMerge(`flex flex-col items-center justify-center  mx-8 text-maintext py-8`, className)} id={id}>
             {children}
         </div>
     );
