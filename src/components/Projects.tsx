@@ -13,7 +13,7 @@ const Projects = () => {
 
         {
             name: "YorkRMC",
-            description: "A Chrome extension that displays data from ratemycourses.io onto York University's course information ipages.",
+            description: "A Chrome extension that displays data from ratemycourses.io onto York University's course information images.",
             stack: "JavaScript, Node.js (Express.js), Puppeteer",
             githubLink: "https://github.com/russl8/YorkRMC",
             siteLink: "https://chrome.google.com/webstore/detail/yorkrmc/idmpighcjfjokifedbmlnmlfdjedidfb"
