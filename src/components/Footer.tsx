@@ -1,12 +1,16 @@
+import FadeInSection from "./FadeInSection";
 import PageDiv from "./PageDiv";
 const Footer = () => {
     return (
-        <PageDiv className="text-xs text-subtext text-center">
-            Built and designed by Russell Liu.
-            <br/>
-            All rights reserved. ©
+        <FadeInSection>
+            <PageDiv className="text-xs text-subtext text-center">
+                Built and designed by Russell Liu.
+                <br />
+                All rights reserved. ©
 
-        </PageDiv>
+            </PageDiv>
+        </FadeInSection>
+
     );
 }
 

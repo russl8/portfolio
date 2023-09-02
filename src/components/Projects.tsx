@@ -1,4 +1,5 @@
 import Card from "./Card";
+import FadeInSection from "./FadeInSection";
 import PageDiv from "./PageDiv";
 
 const Projects = () => {
@@ -28,13 +29,21 @@ const Projects = () => {
 
     ]
     return (
-        <PageDiv id="projects">
-            <h1 className="text-3xl font-bold">My Projects!</h1>
+        <FadeInSection>
 
-            <div className="grid xl:grid-cols:3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-5 my-4">
-                {projects.map(proj => <Card proj={proj} />)}
-            </div>
-        </PageDiv>
+            <PageDiv id="projects">
+                <h1 className="text-3xl font-bold">My Projects!</h1>
+
+                <div className="grid xl:grid-cols:3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-5 my-4">
+                    {projects.map((proj, i) => (
+                        <FadeInSection delay={`${i + 5}00ms`}>
+                            <Card proj={proj} />
+                        </FadeInSection>
+                    ))}
+                </div>
+            </PageDiv>
+        </FadeInSection>
+
     );
 }
 
