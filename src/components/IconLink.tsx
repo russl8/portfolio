@@ -17,7 +17,3 @@ const IconLink: React.FC<IconLinkProps> = ({ children, link, className }) => {
 }
 
 export default IconLink;
-
-<a>
-
-</a>
