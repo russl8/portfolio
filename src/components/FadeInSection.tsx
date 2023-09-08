@@ -10,6 +10,7 @@ export default function FadeInSection(props: FadeInSectionProps) {
   const domRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const domrefCurrent = domRef.current;
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -17,13 +18,13 @@ export default function FadeInSection(props: FadeInSectionProps) {
         }
       });
     });
-    if (domRef.current) {
-      observer.observe(domRef.current);
+    if (domrefCurrent) {
+      observer.observe(domrefCurrent);
     }
 
     return () => {
-      if (domRef.current) {
-        observer.unobserve(domRef.current);
+      if (domrefCurrent) {
+        observer.unobserve(domrefCurrent);
       }
     };
   }, []);
