@@ -10,7 +10,6 @@ const About = () => {
         "Python",
         "HTML",
         "CSS",
-        "SQL"
     ]
 
     const tools = [
@@ -53,8 +52,6 @@ const About = () => {
 
                     </div>
                 </FadeInSection>
-
-                {/* <h3 className="text-xl mt-8"></h3> */}
             </PageDiv >
         </>
 

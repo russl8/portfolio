@@ -29,7 +29,7 @@ const Projects = () => {
         {
             name: "Live Chat Room",
             description: "A local real-time chat application that retains chat history, letting users engage in live conversations using sockets.",
-            stack: "Python (Flask), PostgreSQL (SQLAlchemy), JavaScript, HTML",
+            stack: "Python (Flask), PostgreSQL (SQLAlchemy), JavaScript, HTML, CSS",
             githubLink: "https://github.com/russl8/flaskchat",
         },
 
