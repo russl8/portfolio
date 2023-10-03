@@ -29,7 +29,7 @@ const Sidebar = () => {
                 <IconLink link="https://github.com/russl8">
                     <GitHubIcon />
                 </IconLink>
-                <IconLink link="mailto:russl8@my.yorku.ca" className="mx-1">
+                <IconLink link="mailto:rssliu88@gmail.com" className="mx-1">
                     <EmailIcon />
                 </IconLink>
                 <IconLink link="https://www.linkedin.com/in/russell-liu-850901257/">
