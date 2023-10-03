@@ -10,17 +10,20 @@ const About = () => {
         "Python",
         "HTML",
         "CSS",
+        "C"
     ]
 
     const tools = [
         "React",
         "Flask",
         "Node",
+        "Next.js",
         "Express",
         "MaterialUI",
         "TailwindCSS",
         "MongoDB",
-        "PostgreSQL"
+        "PostgreSQL",
+        "MySQL"
     ]
 
 
