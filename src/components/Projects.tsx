@@ -27,6 +27,13 @@ const Projects = () => {
             githubLink: "https://github.com/russl8/portfolio",
         },
         {
+            name: "File Storage System",
+            description: "An application that allows users to upload and view photos.",
+            stack: "Spring Boot, React, MongoDB, Java, TypeScript, TailwindCSS",
+            siteLink: "https://main--guileless-cheesecake-e176d5.netlify.app",
+            githubLink: "https://github.com/russl8/PhotoStore-client",
+        },
+        {
             name: "Live Chat Room",
             description: "A local real-time chat application that retains chat history, letting users engage in live conversations using sockets.",
             stack: "Python (Flask), PostgreSQL (SQLAlchemy), JavaScript, HTML, CSS",
