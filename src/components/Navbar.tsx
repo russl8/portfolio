@@ -1,4 +1,3 @@
-import FadeInSection from "./FadeInSection";
 import SidebarLink from "./SidebarLink";
 
 const links = [
