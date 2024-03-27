@@ -9,8 +9,8 @@ const links = [
 const Navbar = () => {
     return (
         <FadeInSection delay={`100ms`}>
-            <div className="w-full flex justify-center items-center mt-4 px-10 sm:hidden">
-                <div className=" fixed z-10 w-[450px] py-2 text-color bg-[#000000] rounded-lg flex justify-around items-center mt-8 mx-4">
+            <div className="w-full flex justify-center z-1000 items-center mt-4 px-10 sm:hidden">
+                <div className=" fixed  w-[450px] py-2 text-color bg-[#000000] rounded-lg flex justify-around items-center mt-8 mx-4">
                     {links.map((link, i) => (
                         <div className="">
                             {link}
