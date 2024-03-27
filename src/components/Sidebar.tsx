@@ -9,9 +9,9 @@ import FadeInSection from "./FadeInSection";
 const Sidebar = () => {
 
     const links = [
-        <SidebarLink href="#intro" text="home" />,
+       <SidebarLink href="#intro" text="home" />,
         <SidebarLink href="#about" text="about" />,
-        <SidebarLink href="#projects" text="my projects" />
+        <SidebarLink href="#projects" text="my projects" /> 
     ]
 
     return (
