@@ -17,7 +17,7 @@ const Sidebar = () => {
     return (
 
 
-        <div className="text-lightGray fixed bottom-8 right-8  flex-col items-end hidden sm:flex md:flex lg:flex text-color font-bold text-sm"  >
+        <div className="text-lightGray fixed bottom-8 right-8 flex-col items-end hidden sm:flex text-color font-bold text-sm"  >
 
             {links.map((link, i) => (
                 <FadeInSection delay={`${i + 1}00ms`}>
@@ -25,7 +25,7 @@ const Sidebar = () => {
                 </FadeInSection>
             ))}
 
-            <div className="mt-4">
+            <div className="mt-5">
                 <IconLink link="https://github.com/russl8">
                     <GitHubIcon />
                 </IconLink>
